@@ -1,0 +1,57 @@
+(rousseau
+   (name "Rousseau")
+   (song_id 4950110)
+   (context 0)
+   (song
+     (name        songs/rousseau/rousseau)
+     (tracks
+        ((drum (0 1))
+         (bass (2 3))
+         (guitar (4 5))
+		 (vocals (6 7))
+        )
+     )   
+     (vocal_parts 3)
+    ;                DRUMS       BASS      GUITAR     VOCALS     TRACKS
+     (pans        ( -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        (  0.0  0.0   0.0  0.0   0.0  0.0   0.0  0.0   0.0  0.0 )) ; Steamian Approved
+     (cores       (  -1   -1    -1   -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (mute_volume -14.0)
+     (mute_volume_vocals -12.0)
+     (sfx_level -3.0)
+   )
+   (song_scroll_speed 2300)
+   (anim_tempo kTempoMedium) ; SET T0 kTempoMedium, kTempoFast, OR kTempoSlow
+   (preview 9633 66113)
+   (rank
+      (drum 165)
+      (guitar 0)
+      (bass 238)
+      (vocals 295)
+      (band 226)
+   )
+   (venue dreamscape)
+   
+   (date_released "1999-12-01") ; YEAR-MONTH-DAY
+   (date_recorded "1999-12-01") ; YEAR-MONTH-DAY
+   (album_name "This Is A Pinback CD") ; DELETE IF SINGLE
+   (album_track_number 10) ; DELETE IF SINGLE
+   (format 0)
+   (version 20)
+   (game_origin beatles)
+   (rating 2)
+   (guide_pitch_volume -3.0)
+   (singer john) ; SET TO paul, john, george, OR ringo
+   (songtype acoustic piano) ; SET TO piano, acoustic, electric, OR solo
+   (downloaded TRUE)
+   (new_ar_console TRUE) ; ONLY USE IF USING "emi_tg_mixer" IN SONG.JSON
+   (loading_sounds ; DELETE UNLESS USING CUSTOM LOADING SOUNDS
+		"vo_loading_rousseau01.mogg",
+		"vo_loading_rousseau02.mogg",)
+)
